@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OgaLand Lord</string>
+    <string name="registration">Registration</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not registered</string>
+    <string name="forgotten_pass">Forgotten Password</string>
+    <string name="new_pass">New Password</string>
+</resources>

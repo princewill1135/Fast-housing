@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="co.ogalandlord.ogalandlord.Login"
+    >
+
+  <ImageView
+      android:layout_width="200dp"
+      android:layout_height="100dp"
+      android:background="@drawable/fast"
+      android:layout_gravity="center"/>
+
+  <TextView
+      android:id="@+id/tvlogin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/login"
+      android:textSize="30dp"
+      android:layout_gravity="center"
+      />
+
+
+
+  <EditText
+      android:id="@+id/etemail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/email"
+      android:layout_marginRight="30dp"
+      android:inputType="text"
+      />
+
+  <EditText
+      android:id="@+id/etpassword"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/password"
+      android:layout_marginRight="30dp"
+      android:inputType="text"/>
+
+  <Button
+      android:id="@+id/btnlogin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/login"
+      android:layout_marginTop="20dp"
+      android:layout_gravity="center"/>
+
+  <Button
+      android:id="@+id/btnnot_registered"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/not_registered"
+      android:layout_marginTop="20dp"
+      android:layout_gravity="center"/>
+
+  <Button
+      android:id="@+id/btnforgotten_password"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:text="@string/forgotten_pass" />
+</LinearLayout>
